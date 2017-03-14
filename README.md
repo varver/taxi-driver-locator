@@ -1,4 +1,4 @@
-# wmd
+# Taxi Driver Locator
 
 ## Stack used
 Used MongoDB since we need faster reads and writes and mongo db can handle 50,000 reads and writes per minute with ease.
