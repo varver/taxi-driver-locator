@@ -1,0 +1,14 @@
+make setup
+source ~/.goenv
+make gotest
+
+if it says "Hello, Go is working fine" then golang has been installed successfully.
+
+go get -u -v github.com/tools/godep
+go install github.com/tools/godep
+
+go get project
+
+cd $GOPATH/src/project
+
+godep get 
